@@ -16,7 +16,7 @@ A Deep learning model for day night classification problem
     include model integration with flask API 
 # uploads 
     contain images for testing api form test set to test your own images add them to this folder
-#   step 1) saved_model:
+#   saved_model:
     include trained model that app will use to test images in upload file
     must be unzip to one file (splited to 4 files as max file upload is 25 MB)
     path should be : saved_model//my_model
@@ -38,11 +38,11 @@ A Deep learning model for day night classification problem
             - Before installing PIP, download the get-pip.py file:https://bootstrap.pypa.io/get-pip.py
               Download the file to the desired folder in Windows. You can save the file to any location, but remember the path so you can use it later.
             - check version again
-   ##  step 2) cd to requirements.txt path and run this command line:
+   ##  cd to requirements.txt path and run this command line:
       pip install -r requirements.txt
       
       if error erase this because you alreaday have the module so remove module name that make error from requirements.txt 
  
-   # step 3) run app.py (server on local host)
+   #  run app.py (server on local host)
    
       
