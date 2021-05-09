@@ -1,7 +1,7 @@
 # Day_night_classification_problem
-A Deep learning model for day night classification problem:
+### A Deep learning model for day night classification problem:
     it contain  contain 2 model:
-        - simple model which is depend only on brightness of image:
+        - simple model which is depend only on brightness of image: <br>
             - calculate average brightness for whole image and take a threshold to differentiate between day and night classes based on average brightness for dataset.
             - Achvied 93.49 accuracy for test set
         - Deep network model
