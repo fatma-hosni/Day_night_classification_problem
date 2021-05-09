@@ -19,6 +19,7 @@ A Deep learning model for day night classification problem
 #   step 1) saved_model:
     include trained model that app will use to test images in upload file
     must be unzip to one file (splited to 4 files as max file upload is 25 MB)
+    path should be : saved_model//my_model
       
 #   requirements.txt
    ## Problem for pip or python installation
@@ -42,6 +43,6 @@ A Deep learning model for day night classification problem
       
       if error erase this because you alreaday have the module so remove module name that make error from requirements.txt 
  
-# Now after all this steps the model will work successfully
+   # step 3) run app.py (server on local host)
    
       
