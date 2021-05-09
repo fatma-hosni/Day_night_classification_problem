@@ -21,8 +21,8 @@ A Deep learning model for day night classification problem
         -  Open the Command Prompt window.
         -  When the console window opens, type in:
            python
-   ## Installing PIP On Windows:
-   ### Download PIP get-pip.py
+           
+   ### Download PIP 
         - Before installing PIP, download the get-pip.py file:https://bootstrap.pypa.io/get-pip.py
           Download the file to the desired folder in Windows. You can save the file to any location, but remember the path so you can use it later.
         - check version again
