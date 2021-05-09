@@ -22,27 +22,30 @@ A Deep learning model for day night classification problem
     path should be : saved_model//my_model
       
 # requirements.txt
-   ## pip or python installation
-          install python modules that used in full problem using command line tool called pip 
+   ## pip/python installation
+          pip is used to facilitate the installation of the required libraries for running the application 
           pip is already installed if you are using Python 2 >=2.7.9 or Python 3 >=3.4 downloaded from python.org or if you are working in a Virtual Environment created by               virtualenv  or venv. Just make sure to upgrade pip.
-          Step 1: Check if PIP is Already Installed
-            Type in the following command at the command prompt:
-            pip help
-            Step 2: Verify Python Installation
-            To determine whether you have Python installed:
-            -  Open the Command Prompt window.
-            -  When the console window opens, type in:
-               python
+          Check if PIP is Already Installed by typing "pip help" in the cmd
+          Verify Python Installation by typing "python" in the cmd
 
-         For Download PIP 
+         To install pip if not exist: 
             - Before installing PIP, download the get-pip.py file:https://bootstrap.pypa.io/get-pip.py
               Download the file to the desired folder in Windows. You can save the file to any location, but remember the path so you can use it later.
             - check version again
-   ##  cd to requirements.txt path and run this command line:
+   ##  install the needed libraries by running the followig command after pip/python installation is done:
       pip install -r requirements.txt
       
-      if error erase this because you alreaday have the module so remove module name that make error from requirements.txt 
+      in case any of the libraries are already installed, remove them first from the list in requirements.txt, because this is going to cause errors while running the previous command
+      you may directly check the list in requirements.txt and install them one by one manually in case the previous command is causing errors regarding the libraries existance/versions
  
-   #  run app.py (server on local host)
+ # steps to run/test the application
+     1- unzip the saved_model to one part the path sould be saved_model/my_model 
+     1- run app.py in command line (you should connect to server with local host)
+     2- copy this local host to web page
+     3- choose image from uploads folder (in case you need to test your own image put the image in uploads folder)
+     4- click on predict image
+     
+ # steps to retrain model from scratch
+    
    
       
