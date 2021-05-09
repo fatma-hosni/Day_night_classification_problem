@@ -34,8 +34,6 @@ def model_predict(img_path, model):
 
 app = Flask(__name__)
 
-# Model saved with Keras model.save()
-MODEL_PATH = "model_checkpoints"
 
 # Load your trained model
 loaded_model = tf.keras.models.load_model(r'saved_model/my_model')
