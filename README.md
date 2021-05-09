@@ -8,7 +8,7 @@
             - Achvied 93.49% accuracy for test set
             
         - Deep network model
-            - Consist of 3 convolution neural network  with maxpooling and elu activation function and one dense layer 
+            - Consist of 3 convolution neural network  with maxpooling, elu activation function and one dense layer 
             - Validation accuracy: 99.937%, testing accuracy: 99.94%
             - It fit's perfect so no need for transfer leraning as no need for complex network 
             
