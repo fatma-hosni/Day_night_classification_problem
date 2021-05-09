@@ -1,7 +1,7 @@
 # Day_night_classification_problem
 A Deep learning model for day night classification problem
 
-#   Dataset
+# Dataset
     Obtained from BDD A Large-scale Diverse Driving Video Database   
     dataset link:https://www.kaggle.com/solesensei/solesensei_bdd100k
     After dowunload dataset there is 2 step:
@@ -11,18 +11,18 @@ A Deep learning model for day night classification problem
        and put those to folder in folder name "dataset" in app path
     now the dataset is ready to use in day_night_classification.ipynb !
 # day_night_classification.ipynb
-    inculde model starting from data prepration and visualization to model testing and validation  
+    inculdes model starting from data prepration and visualization to model testing and validation  
 # app.py 
-    include model integration with flask API 
+    test application that includes model integration with flask API 
 # uploads 
-    contain images for testing api form test set to test your own images add them to this folder
-#   saved_model:
-    include trained model that app will use to test images in upload file
+    contains images for testing api form test set to test your own images add them to this folder
+# saved_model:
+    trained model which the app will use to test images in upload file
     must be unzip to one file (splited to 4 files as max file upload is 25 MB)
     path should be : saved_model//my_model
       
-#   requirements.txt
-   ## Problem for pip or python installation
+# requirements.txt
+   ## pip or python installation
           install python modules that used in full problem using command line tool called pip 
           pip is already installed if you are using Python 2 >=2.7.9 or Python 3 >=3.4 downloaded from python.org or if you are working in a Virtual Environment created by               virtualenv  or venv. Just make sure to upgrade pip.
           Step 1: Check if PIP is Already Installed
