@@ -3,12 +3,13 @@
     it contain  contain 2 model:
         - simple model which is depend only on brightness of image: 
             - calculate average brightness for whole image and take a threshold to differentiate between day and night classes based on average brightness for dataset.
-            - Achvied 93.49 accuracy for test set
+            - Achvied 93.49% accuracy for test set
+            
         - Deep network model
             - consist of 3 convolution neural network  with maxpooling and elu activation function and one dense layer 
             - validation accuracy: 99.937%, testing accuracy: 99.94%
             - it fits perfect so no need for transfer leraning as no need for complex network 
-            -     
+            
         - for more details please find day_night_classification.ipynb
 
 # Dataset
