@@ -8,6 +8,7 @@ A Deep learning model for day night classification problem
     1- go to : archive\bdd100k\bdd100k\images\100k\train
        in train file : testA,testB,trainA,trainB where testA ,trainA is images for day class, and trainB,testB is image for night class
     2- make 2 folder thier name is day,night and copy images from trainA, testA to day folder and copy images from trainB,testB to night folder
+       and put those to folder in folder name "dataset" in app path
     now the dataset is ready to use in day_night_classification.ipynb !
 # day_night_classification.ipynb
     inculde model starting from data prepration and visualization to model testing and validation  
