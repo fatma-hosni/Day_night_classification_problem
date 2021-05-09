@@ -53,7 +53,7 @@
       you may directly check the list in requirements.txt and install them one by one manually in case the previous command is causing errors regarding the libraries existance/versions
  
  # steps to run/test the application
-     1- unzip the saved_model to one part the path sould be saved_model/my_model 
+     1- unzip the saved_model to one part. The path sould be saved_model/my_model 
      2- install required library 
      3- run app.py in command line (you should connect to server with local host)
      4- copy this local host to web page
@@ -63,10 +63,10 @@
  # steps to retrain model from scratch
     1- download dataset from ::https://www.kaggle.com/solesensei/solesensei_bdd100k
     2- go to : archive\bdd100k\bdd100k\images\100k\train
-    3- make 2 folder day,night
-    4- copy images from trainA, testA to day folder  
-    5- copy images from trainB, testB to night folder
-    6- put day folder,night folder in folder name called dataset
-    7- dataset folder path is same with day_night_classification.ipynb path
+    3- make 2 folders day and night
+    4- copy images from trainA and testA to day folder  
+    5- copy images from trainB and testB to night folder
+    6- put day folder and night folder in one folder named dataset
+    7- dataset folder path is the same with day_night_classification.ipynb path
     8- open day_night_classification.ipynb and start run cell by cell
       
