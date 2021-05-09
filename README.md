@@ -48,7 +48,7 @@ A Deep learning model for day night classification problem
      6- click on predict image
      
  # steps to retrain model from scratch
-    1-download dataset from ::https://www.kaggle.com/solesensei/solesensei_bdd100k
+    1- download dataset from ::https://www.kaggle.com/solesensei/solesensei_bdd100k
     2- go to : archive\bdd100k\bdd100k\images\100k\train
     3- make 2 folder day,night
     4- copy images from trainA, testA to day folder  
