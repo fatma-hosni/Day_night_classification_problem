@@ -14,7 +14,11 @@ A Deep learning model for day night classification problem
 # app.py 
     include model integration with flask API 
 # uploads 
-    contain images for testing api form test set  
+    contain images for testing api form test set to test your own images add them to this folder
+# saved_model:
+    include trained model that app will use to test images in upload file
+    must be unzip to one file (splited to 4 files as max file upload is 25 MB)
+      
 # requirement.txt
   ### install python modules that used in full problem using command line tool called pip 
       pip is already installed if you are using Python 2 >=2.7.9 or Python 3 >=3.4 downloaded from python.org or if you are working in a Virtual Environment created by               virtualenv  or venv. Just make sure to upgrade pip.
