@@ -2,16 +2,22 @@
 A Deep learning model for day night classification problem
 
 # Dataset
-    obrained from BDD A Large-scale Diverse Driving Video Database   
+    Obtained from BDD A Large-scale Diverse Driving Video Database   
+    dataset link:https://www.kaggle.com/solesensei/solesensei_bdd100k
+    After dowunload dataset there is 2 step:
+    1- go to : archive\bdd100k\bdd100k\images\100k\train
+       in train file : testA,testB,trainA,trainB where testA ,trainA is images for day class, and trainB,testB is image for night class
+    2- make 2 folder thier name is day,night and copy images from trainA, testA to day folder and copy images from trainB,testB to night folder
+    now the dataset is ready to use in day_night_classification.ipynb !
 # day_night_classification.ipynb
     inculde model starting from data prepration and visualization to model testing and validation  
 # app.py 
-    include flask api  
+    include model integration with flask API 
 # uploads 
     contain images for testing api form test set  
 # requirement.txt
-  ### install python modules using command line tool called pip 
-      pip is already installed if you are using Python 2 >=2.7.9 or Python 3 >=3.4 downloaded from python.org or if you are working in a Virtual Environment created by virtualenv       or venv. Just make sure to upgrade pip.
+  ### install python modules that used in full problem using command line tool called pip 
+      pip is already installed if you are using Python 2 >=2.7.9 or Python 3 >=3.4 downloaded from python.org or if you are working in a Virtual Environment created by               virtualenv  or venv. Just make sure to upgrade pip.
    ## Step 1: Check if PIP is Already Installed
         Type in the following command at the command prompt:
         
@@ -28,7 +34,7 @@ A Deep learning model for day night classification problem
         - check version again
    ## cd to requirement.txt path and run this command line:
         pip install -r requirement.txt
-    
-   
+ 
+# now after all this steps the model will work successfully
    
       
