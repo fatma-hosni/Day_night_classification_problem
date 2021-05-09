@@ -1,7 +1,7 @@
 # Day_night_classification_problem
 A Deep learning model for day night classification problem
 
-# Dataset
+#   Dataset
     Obtained from BDD A Large-scale Diverse Driving Video Database   
     dataset link:https://www.kaggle.com/solesensei/solesensei_bdd100k
     After dowunload dataset there is 2 step:
@@ -16,30 +16,32 @@ A Deep learning model for day night classification problem
     include model integration with flask API 
 # uploads 
     contain images for testing api form test set to test your own images add them to this folder
-# saved_model:
+#   step 1) saved_model:
     include trained model that app will use to test images in upload file
     must be unzip to one file (splited to 4 files as max file upload is 25 MB)
       
-# requirement.txt
-  ### install python modules that used in full problem using command line tool called pip 
-      pip is already installed if you are using Python 2 >=2.7.9 or Python 3 >=3.4 downloaded from python.org or if you are working in a Virtual Environment created by               virtualenv  or venv. Just make sure to upgrade pip.
-   ## Step 1: Check if PIP is Already Installed
-        Type in the following command at the command prompt:
-        
-        pip help
-   ## Step 2: Verify Python Installation
-    To determine whether you have Python installed:
-        -  Open the Command Prompt window.
-        -  When the console window opens, type in:
-           python
-           
-   ### Download PIP 
-        - Before installing PIP, download the get-pip.py file:https://bootstrap.pypa.io/get-pip.py
-          Download the file to the desired folder in Windows. You can save the file to any location, but remember the path so you can use it later.
-        - check version again
-   ## cd to requirement.txt path and run this command line:
-        pip install -r requirement.txt
+#   requirements.txt
+   ## Problem for pip or python installation
+          install python modules that used in full problem using command line tool called pip 
+          pip is already installed if you are using Python 2 >=2.7.9 or Python 3 >=3.4 downloaded from python.org or if you are working in a Virtual Environment created by               virtualenv  or venv. Just make sure to upgrade pip.
+          Step 1: Check if PIP is Already Installed
+            Type in the following command at the command prompt:
+            pip help
+            Step 2: Verify Python Installation
+            To determine whether you have Python installed:
+            -  Open the Command Prompt window.
+            -  When the console window opens, type in:
+               python
+
+         For Download PIP 
+            - Before installing PIP, download the get-pip.py file:https://bootstrap.pypa.io/get-pip.py
+              Download the file to the desired folder in Windows. You can save the file to any location, but remember the path so you can use it later.
+            - check version again
+   ##  step 2) cd to requirements.txt path and run this command line:
+      pip install -r requirements.txt
+      
+      if error erase this because you alreaday have the module so remove module name that make error from requirements.txt 
  
-# now after all this steps the model will work successfully
+# Now after all this steps the model will work successfully
    
       
