@@ -11,7 +11,8 @@ A Deep learning model for day night classification problem
        and put those to folder in folder name "dataset" in app path
     now the dataset is ready to use in day_night_classification.ipynb !
 # day_night_classification.ipynb
-    inculdes model starting from data prepration and visualization to model testing and validation  
+    it include 2 models simple model
+    Deep network model :inculdes model starting from data prepration and visualization to model testing and validation  
 # app.py 
     test application that includes model integration with flask API 
 # uploads 
@@ -40,12 +41,19 @@ A Deep learning model for day night classification problem
  
  # steps to run/test the application
      1- unzip the saved_model to one part the path sould be saved_model/my_model 
-     1- run app.py in command line (you should connect to server with local host)
-     2- copy this local host to web page
-     3- choose image from uploads folder (in case you need to test your own image put the image in uploads folder)
-     4- click on predict image
+     2- install required library 
+     3- run app.py in command line (you should connect to server with local host)
+     4- copy this local host to web page
+     5- choose image from uploads folder (in case you need to test your own image put the image in uploads folder)
+     6- click on predict image
      
  # steps to retrain model from scratch
-    
-   
+    1-download dataset from ::https://www.kaggle.com/solesensei/solesensei_bdd100k
+    2- go to : archive\bdd100k\bdd100k\images\100k\train
+    3- make 2 folder day,night
+    4- copy images from trainA, testA to day folder  
+    5- copy images from trainB, testB to night folder
+    6- put day folder,night folder in folder name called dataset
+    7- dataset folder path is same with day_night_classification.ipynb path
+    8- open day_night_classification.ipynb and start run cell by cell
       
