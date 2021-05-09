@@ -1,39 +1,39 @@
 # Day_night_classification_problem
 ### A Deep learning model for day night classification problem:
 
-    it contain  contain 2 models:
+    it contains 2 models:
     
         - Simple model which is depend only on brightness of image: 
-            - Calculate average brightness for whole image and take a threshold to differentiate between day and night classes based on average brightness for dataset.
+            - Calculates average brightness for the whole image and takes a threshold to differentiate between day and night classes based on average brightness for the dataset.
             - Achvied 93.49% accuracy for test set
             
-        - Deep network model
-            - Consist of 3 convolution neural network  with maxpooling, elu activation function and one dense layer 
+        - Deep network model:
+            - Consists of 3 convolution neural networks  with maxpooling, elu activation function and one dense layer 
             - Validation accuracy: 99.937%, testing accuracy: 99.94%
-            - It fit's perfect so no need for transfer leraning as no need for complex network 
+            - It fits perfect so no need for transfer leraning as no need for complex network 
             
         - For more details please find day_night_classification.ipynb
 
 # Dataset
     Obtained from BDD A Large-scale Diverse Driving Video Database   
     dataset link:https://www.kaggle.com/solesensei/solesensei_bdd100k
-    After dowunload dataset there is 2 step:
-    1- go to : archive\bdd100k\bdd100k\images\100k\train
-       in train file : testA,testB,trainA,trainB where testA ,trainA is images for day class, and trainB,testB is image for night class
-    2- make 2 folder thier name is day,night and copy images from trainA, testA to day folder and copy images from trainB,testB to night folder
-       and put those to folder in folder name "dataset" in app path
+    After dowunloading the dataset there are 2 steps:
+    1- Go to : archive\bdd100k\bdd100k\images\100k\train
+       in train file : testA, testB, trainA, trainB where testA, trainA are images for day class, and trainB, testB are image for night class
+    2- Make 2 folders. Thier names are day and night. Copy images from trainA, testA to day folder and copy images from trainB, testB to night folder
+       and put those in a folder name "dataset" in app.py path
     now the dataset is ready to use in day_night_classification.ipynb !
 # day_night_classification.ipynb
-    it include 2 models simple model
-    Deep network model :inculdes model starting from data prepration and visualization to model testing and validation  
+    It includes 2 models: simple model
+    Deep network model: inculdes model starting from data prepration and visualization to model testing and validation  
 # app.py 
-    test application that includes model integration with flask API 
+    Tests the application that includes model integration with flask API 
 # uploads 
-    contains images for testing api form test set to test your own images add them to this folder
+    Contains images for testing api form test set to test your own images add them to this folder
 # saved_model:
-    trained model which the app will use to test images in upload file
-    must be unzip to one file (splited to 4 files as max file upload is 25 MB)
-    path should be : saved_model//my_model
+    The trained model which the app will use to test images in upload file
+    must be unziped to one file (splited to 4 files as max file upload is 25 MB)
+    The path should be : saved_model//my_model
       
 # requirements.txt
    ## pip/python installation
